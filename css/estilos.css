@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+--negro: #000;
+--morado2: #202a49;
+--morado: #515991;
+--violeta: #918fe3;
+--lila: #e0caff;
+}
+
+body{
+    background: var(--lila);
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.titulo{
+    color: #202a49;
+    text-align: center;
+    font-size: 50px;
+}
+.primerContenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    padding: 40px;
+    margin-bottom: 50px;
+    /* -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background-color: var(--morado);
+    /* backdrop-filter: blur(10px); */
+}
+
+.contenedor {
+    background-color: var(--violeta);
+    border-radius: 30px;
+    /* border: 15px solid var(--morado2); */
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{display: block;}
+.form-field{ padding-bottom: 40px;}
+
+input[type=text]{
+    font-size: 25px;
+    border-radius: 10px;
+    height: 28px;
+    width: 350px;
+    color: #202a49;
+}
+
+input[type=submit], .btn{
+    font-size: 25px;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: var(--morado);
+}
+
+/* --------------------captcha--------------------- */
+
+.login2 {
+    padding: 40px;
+    margin-bottom: 50px;
+    /* -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background-color: var(--morado);
+    color: #202a49;
+    text-align: center;
+    font-size: 30px;
+    /* backdrop-filter: blur(10px); */
+}
+
+.contenedor2 {
+    background-color: var(--violeta);
+    border-radius: 30px;
+    /* border: 15px solid var(--morado2); */
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+    height: 330px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{display: block; }
+.form-field{ padding-bottom: 40px;}
+
+#suma{
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    height: 33px;
+    width: 300px;
+    color: #202a49;
+    text-align: center;
+}
+
+input[type=submit], .btn{
+    font-size: 25px;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: var(--morado);
+}
+
+/* --------------------mss de error------------------------ */
+.mss{
+    color: #000;
+    font-size: 30px;
+}

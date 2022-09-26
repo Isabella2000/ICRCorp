@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RETO3</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <h2 class="titulo">Bienvenidos al sistema de ubicacion para zonas publicas WIFI</h2>
+  <div class="primerConteneder">
+    <div class="login">
+
+      <form class="contenedor" id="contenedor">
+        
+        <h2 style="padding-bottom: 20px;">Iniciar Sesion</h2>
+
+        <div class="form-field">
+          <label>Usuario</label>
+          <input type="text" id="usuario" />
+        </div>
+
+        <div class="form-field">
+          <label>Contraseña</label>
+          <input type="text"  id="contra" />
+        </div>
+
+        <button class="btn1 btn">Guardar</button>
+      </div>
+    </div>
+
+<!-- ----------------------captcha----------------------------------- -->
+
+    <div class="login2">
+      <form class="contenedor2" id="contenedor2">
+        <h2 >Suma de comprobacion</h2>
+
+        <div class="form-field">
+          <div id="sumas"></div>
+          <input type="number" placeholder="Respuesta" id="suma">
+        </div>
+
+        <button class="btn2 btn">Guardar</button>
+      </form>
+    </div>
+
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
